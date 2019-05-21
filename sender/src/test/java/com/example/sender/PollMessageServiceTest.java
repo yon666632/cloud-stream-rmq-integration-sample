@@ -12,10 +12,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class SendMessageServiceTest {
+public class PollMessageServiceTest {
 
     @Autowired
-    SendMessageService service;
+    PollMessageService service;
 
     @Autowired
     Source source;
